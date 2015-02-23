@@ -8,8 +8,8 @@
                     wrapperEl.innerHTML=$templateCache.get(template);
                     var replacedEl=wrapperEl.children[0];
                     $compile(angular.element(replacedEl))(scope);
-                    var radioEl = el[0].parentNode.replaceChild(replacedEl, el[0]);
-                    replacedEl.insertBefore(radioEl, replacedEl.children[0]);
+                    var rplEl = el[0].parentNode.replaceChild(replacedEl, el[0]);
+                    replacedEl.insertBefore(rplEl, replacedEl.children[0]);
                 }
             };
         }]);
