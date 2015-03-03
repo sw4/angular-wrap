@@ -1,14 +1,14 @@
-# ux.utility.wrap
+# wrap
 Reverse transclusion for angular, wrap and compile an element against the original scope
 
 
-To use- include 'ux.utility.wrap' as a dependency of your application/module, then 'uxWrap' as a dependency of the relevant directive.
+To use- include 'wrap' as a dependency of your application/module, then 'wrap' as a dependency of the relevant directive.
 
 In the directives linking function, to use:
 
 ```(javascript)
   link:function(scope, el){
-      uxWrap.wrap(scope, el, 'template.html');
+      wrap(scope, el, 'template.html');
   }
 ```
 
