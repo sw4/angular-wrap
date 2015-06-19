@@ -1,6 +1,7 @@
 # wrap
 Reverse transclusion for angular, wrap and compile an element against the original scope
 
+Draft. Deprecated.
 
 To use- include 'wrap' as a dependency of your application/module, then 'wrap' as a dependency of the relevant directive.
 
